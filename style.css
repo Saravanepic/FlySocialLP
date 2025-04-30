@@ -14,6 +14,18 @@
     font-style: normal;
 } */
 
+.fs-16{
+    font-size: 16px;
+    line-height: 22px;
+}
+.fs-17{
+    font-size: 17px;
+    line-height: 23px;
+}
+.fs-18{
+    font-size: 18px;
+    line-height: 24px;
+}
 .fs-20{
     font-size: 20px;
     line-height: 26px;
@@ -25,6 +37,10 @@
 .fs-34{
     font-size: 34px;
     line-height: 40px;
+}
+.fs-42{
+    font-size: 42px;
+    line-height: 48px;
 }
 .fs-48{
     font-size: 48px;
@@ -96,4 +112,15 @@ body{
 }
 .reason-img{
     width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.money-img{
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.money .col{
+    padding: 0 14px;
 }
