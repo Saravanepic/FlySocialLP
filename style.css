@@ -1,0 +1,99 @@
+/*  */
+*{
+    letter-spacing: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Fonts */
+
+
+/* .montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
+
+.fs-20{
+    font-size: 20px;
+    line-height: 26px;
+}
+.fs-30{
+    font-size: 30px;
+    line-height: 36px;
+}
+.fs-34{
+    font-size: 34px;
+    line-height: 40px;
+}
+.fs-48{
+    font-size: 48px;
+    line-height: 54px;
+}
+.fs-64{
+    font-size: 64px;
+    line-height: 70px;
+}
+/* .lh-64{
+    line-height: 64px;
+} */
+.color-green{
+    color: #2AD756;
+}
+
+.color-darkgreen{
+    color: #1F2821;
+}
+.color-353C45{
+    color: #353C45;
+}
+
+
+.bg-green{
+    background-color: #2AD756;
+}
+
+
+li{
+    list-style: none;
+}
+
+.green_button{
+    background: #2AD756;
+    border-radius: 5.32px;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #F9FDD5;
+    text-decoration: none;
+    display: inline;
+    transition: all 0.3s ease;
+}
+.green_button:hover{
+    background: #1F2821;
+    color: #2AD756;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 80px;
+    padding: 120px 0;
+}
+.container{
+    min-width: 1340px;
+}
+.fandb_icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fandb_icons img {
+    width: 100px;
+}
+.reason-img{
+    width: 150px;
+}
