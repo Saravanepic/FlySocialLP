@@ -151,3 +151,105 @@ body{
     max-height: 510px;
     object-fit: contain;
 }
+
+/* Responsive */
+@media all and  (max-width:767px){
+    .green_button {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .intro-section{
+        flex-direction: column-reverse;
+    }
+    .px-sm-0,
+    .intro-section > div,
+    .usp,
+    .money > div{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .fandb_icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+        align-items: center;
+        justify-content: center;
+    }
+    .reasons-wrap *{
+        text-align: center!important;
+    }
+    .reason-img{
+        width: 100px;
+        height: 100px;  
+    }
+    .reasons-wrap {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    
+    .reasons-wrap .col {
+        padding: 0;
+        text-align: center!important;
+    }
+    
+    .reasons-wrap .col:last-child {
+        grid-column: 1/-1;
+    }
+    .money {
+        display: grid!important;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .sm-fs-12{
+        font-size: 12px;
+        line-height: 18px;  
+    }
+    .sm-fs-13{
+        font-size: 13px;
+        line-height: 19px;  
+    }
+    .sm-fs-14{
+        font-size: 14px;
+        line-height: 20px;  
+    }
+    .sm-fs-16{
+        font-size: 16px;
+        line-height: 22px;  
+    }
+    .sm-fs-17{
+        font-size: 17px;
+        line-height: 23px;  
+    }
+    .sm-fs-20{
+        font-size: 20px;
+        line-height: 26px;  
+    }
+    .sm-fs-21{
+        font-size: 21px;
+        line-height: 27px;  
+    }
+    .sm-fs-22{
+        font-size: 22px;
+        line-height: 28px;  
+    }
+    .sm-fs-24{
+        font-size: 24px;
+        line-height: 30px;  
+    }
+    .sm-fs-28{
+        font-size: 28px;
+        line-height: 34px;  
+    }
+    .sm-fs-30{
+        font-size: 30px;
+        line-height: 36px;  
+    }
+    .sm-fs-38{
+        font-size: 38px;
+        line-height: 44px;  
+    }
+    .sm-text-left{
+        text-align: left!important;
+    }
+}
