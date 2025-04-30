@@ -46,6 +46,10 @@
     font-size: 48px;
     line-height: 54px;
 }
+.fs-60{
+    font-size: 60px;
+    line-height: 66px;
+}
 .fs-64{
     font-size: 64px;
     line-height: 70px;
@@ -56,6 +60,9 @@
 .color-green{
     color: #2AD756;
 }
+.color-red{
+    color: #D53D3D;
+}
 
 .color-darkgreen{
     color: #1F2821;
@@ -64,9 +71,18 @@
     color: #353C45;
 }
 
+.font-weight-darker{
+    font-weight: 900;
+}
 
 .bg-green{
     background-color: #2AD756;
+}
+.bg-lwhite{
+    background-color: #F9FDD5;
+}
+.bg-darkgreen{
+    background-color: #1F2821;
 }
 
 
@@ -123,4 +139,13 @@ body{
 
 .money .col{
     padding: 0 14px;
+}
+
+.comparison{
+    min-height: 300px;
+}
+.lion-img{
+    max-width: 510px;
+    max-height: 510px;
+    object-fit: contain;
 }
