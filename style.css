@@ -118,6 +118,27 @@ li{
     color: #2AD756;
     text-decoration: none;
 }
+.show_button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    border: 2px solid #2AD756;
+    padding: 20px 75px;
+    color: #2AD756;
+    background-color: transparent;
+    border-radius: 5.32px;
+    display: inline-block;
+    margin: auto;
+}
+.show_button:hover{
+    background: #2AD756;
+    color: #F9FDD5;
+    text-decoration: none;  
+}
+.show_hide_btn_wrapper{
+    margin-top: 60px;
+}
 body{
     display: flex;
     flex-direction: column;
@@ -225,12 +246,17 @@ body{
 }
 
 .custom_tabs .tab-content {
-    background: #9FE6B1;
+    /* background: #9FE6B1;
     border-radius: 34.41px;
-    padding: 66px 53px;
+    padding: 66px 53px; */
     min-height: 80vh;
 }
 
+.custom_tabs .tab-content img{
+    background: #9FE6B1;
+    border-radius: 34.41px;
+    padding: 66px 53px;
+}
 /* Responsive */
 @media all and  (max-width:767px){
     .green_button {
@@ -351,5 +377,23 @@ body{
     
     .money .col img {
         margin-bottom: 0!important;
+    }
+    .custom_tabs .tab-content div#nav-results img {
+        padding: 20px 10px;
+        border-radius: 10px;
+    }
+    .custom_tabs .tab-content div#nav-website img {
+        padding: 24px 16px;
+        border-radius: 10px;
+    }
+    .show_hide_btn_wrapper{
+        margin-top: 20px;
+    }
+    .show_button {
+        padding: 8px 30px;
+        font-size: 9.64px;
+        line-height: 100%;
+        font-weight: 400;
+        min-height: 30px;
     }
 }
