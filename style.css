@@ -339,4 +339,17 @@ body{
     .custom_tabs .tab-content{
         min-height: 20vh;
     }
+    .money_col {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 0 24px;
+    }
+    
+    .money_col p {
+        grid-column: 2/3;
+    }
+    
+    .money .col img {
+        margin-bottom: 0!important;
+    }
 }
