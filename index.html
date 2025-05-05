@@ -305,12 +305,12 @@
             <img
               src="./images/websites/website2.png"
               alt=""
-              class="img-fluid website-img"
+              class="img-fluid website-img hidden-img"
             />
             <img
               src="./images/websites/website3.png"
               alt=""
-              class="img-fluid website-img"
+              class="img-fluid website-img hidden-img"
             />
             <div class="show_hide_btn_wrapper text-center">
               <a href="" class="show_button">Show more</a>
@@ -330,15 +330,69 @@
             <img
               src="./images/results/result2.png"
               alt=""
-              class="img-fluid result-img"
+              class="img-fluid result-img hidden-img-results"
             />
             <img
               src="./images/results/result3.png"
               alt=""
-              class="img-fluid result-img"
+              class="img-fluid result-img hidden-img-results"
             />
+            <div class="show_hide_btn_wrapper text-center">
+              <a href="" class="show_button_results">Show more</a>
+            </div>
           </div>
         </div>
+
+        <style>
+          .hidden-img,
+          .hidden-img-results {
+            display: none;
+          }
+        </style>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const showButton = document.querySelector(".show_button");
+            const hiddenImages = document.querySelectorAll(".hidden-img");
+
+            showButton.addEventListener("click", function (e) {
+              e.preventDefault();
+
+              hiddenImages.forEach((img) => {
+                img.classList.toggle("hidden-img");
+              });
+
+              if (showButton.textContent === "Show more") {
+                showButton.textContent = "Show less";
+              } else {
+                showButton.textContent = "Show more";
+              }
+            });
+          });
+        </script>
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            const showButton = document.querySelector(".show_button_results");
+            const hiddenImages = document.querySelectorAll(
+              ".hidden-img-results"
+            );
+
+            showButton.addEventListener("click", function (e) {
+              e.preventDefault();
+
+              hiddenImages.forEach((img) => {
+                img.classList.toggle("hidden-img-results");
+              });
+
+              if (showButton.textContent === "Show more") {
+                showButton.textContent = "Show less";
+              } else {
+                showButton.textContent = "Show more";
+              }
+            });
+          });
+        </script>
       </div>
     </section>
 

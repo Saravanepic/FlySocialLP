@@ -118,6 +118,7 @@ li{
     color: #2AD756;
     text-decoration: none;
 }
+.show_button_results,
 .show_button{
     font-weight: 700;
     font-size: 16px;
@@ -130,6 +131,7 @@ li{
     background: #2AD756;
     color: #F9FDD5;
 }
+.show_button_results:hover,
 .show_button:hover{
     color: #2AD756;
     background-color: transparent;
