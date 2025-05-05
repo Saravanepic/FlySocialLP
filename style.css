@@ -122,18 +122,17 @@ li{
     font-weight: 700;
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: 0%;
     border: 2px solid #2AD756;
-    padding: 20px 75px;
-    color: #2AD756;
-    background-color: transparent;
+    padding: 18px 75px;
     border-radius: 5.32px;
     display: inline-block;
     margin: auto;
-}
-.show_button:hover{
     background: #2AD756;
     color: #F9FDD5;
+}
+.show_button:hover{
+    color: #2AD756;
+    background-color: transparent;
     text-decoration: none;  
 }
 .show_hide_btn_wrapper{
@@ -149,6 +148,14 @@ body{
 @media all and (min-width:1200px){
     .container{
         min-width: 1360px;
+    }
+    .website-img,
+    .result-img{
+        margin-top:30px ;
+    }
+    .website-img:nth-child(1),
+    .result-img:nth-child(1){
+        margin-top: 0;
     }
 }
 .fandb_icons {
@@ -216,7 +223,21 @@ body{
     right: 100%;
     min-width: 1000px;
 }
-
+.heading-line{ 
+    position: relative;
+}
+.heading-line::after {
+    content: "";
+    background-image: url(./images/others/heading-line.png);
+    height: 17px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    position: absolute;
+    transform: translateY(-50%);
+    left: 32%;
+    bottom: -20px;
+}
 /* Tabs */
 .custom_tabs {
     margin-top: 100px;
@@ -390,10 +411,28 @@ body{
         margin-top: 20px;
     }
     .show_button {
-        padding: 8px 30px;
-        font-size: 9.64px;
+        /* padding: 8px 30px;
+        font-size: 9.64px; */
         line-height: 100%;
         font-weight: 400;
         min-height: 30px;
+    }
+    .website-img,
+    .result-img{
+        margin-top:10px ;
+    }
+    .website-img:nth-child(1),
+    .result-img:nth-child(1){
+        margin-top: 0;
+    }
+    .heading-line::after {
+        content: "";
+        width: 250px;
+        left: 19%;
+        bottom: -25px;
+    }
+    .usp_section {
+        padding-left: 0px!important;
+        padding-right: 0px!important;
     }
 }
