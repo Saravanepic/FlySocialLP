@@ -97,7 +97,7 @@ body,
 
 div#header {
     position: sticky;
-    top: 10px;
+    top: 0px;
     z-index: 1;
 }
 header {
@@ -172,6 +172,13 @@ body{
     .website-img:nth-child(1),
     .result-img:nth-child(1){
         margin-top: 0;
+    }
+    header {
+        max-width: 1340px;
+        margin: auto!important;
+    }
+    img.logo-menu {
+        padding-left: 0!important;
     }
 }
 .fandb_icons {
