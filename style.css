@@ -507,8 +507,17 @@ img.logo-menu {
     .offset-md-05{
         margin-left: 4.166667% ;
     }
-    .intro-section  .col-md-5 {
+    .intro-section-new  .col-md-5 {
         flex: 0 0 45.666667%;
         max-width: 45.666667%;
+    }
+}
+@media all and (max-width:767px){
+    .reasons-wrap-plain .col:last-child{
+        grid-column: inherit;
+    }
+    .money_max-width p br,
+    .reasons-wrap-plain .col p br{
+        display: none;
     }
 }
