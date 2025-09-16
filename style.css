@@ -488,9 +488,22 @@ img.logo-menu {
   
 }
 
-
+.custom_tabs .tab-content.result_tabs img {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+}
 /*  */
 @media all and (min-width:768px){
+    body .money_max-width {
+        max-width: 1020px;
+        margin: auto!important;
+        gap: 14px;
+    }
+
+    .money_max-width .money_col {
+        padding: 0;
+    }
     .offset-md-05{
         margin-left: 4.166667% ;
     }
